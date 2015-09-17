@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Roomchoser</class>
+ <widget class="QDialog" name="Roomchoser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>187</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="roomchoser">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>房间1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间27</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间28</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间29</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>房间30</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="joinButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>进入房间</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>40</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="checkwho">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>看看有谁在</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="scoreWidget">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>101</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>积分</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
